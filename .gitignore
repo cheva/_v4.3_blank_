@@ -1,13 +1,15 @@
-__*
-__*/
-
-addons/ropesim/bin/~libropesim.windows.template_debug.x86_64.dll
+# Godot 4+ specific ignores
+.godot/
+/android/
 
 .import
 *.import
 */*.import
 
-.godot/
+__*
+__*/
+
+addons/ropesim/bin/~libropesim.windows.template_debug.x86_64.dll
 
 # These are some examples of commonly ignored file patterns.
 # You should customize this list as applicable to your project.

@@ -10,12 +10,27 @@ config_version=5
 
 [application]
 
-config/name="_V4.3_BLANK_"
+config/name="Godot 4.3  Blank Project"
+run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
 config/icon="res://icon.svg"
-config/tags=PackedStringArray("v4.00")
+
+[audio]
+
+buses/default_bus_layout="res://buses.tres"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="ignore"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+occlusion_culling/use_occlusion_culling=true
+2d/snap/snap_2d_transforms_to_pixel=true
